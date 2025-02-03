@@ -1,10 +1,12 @@
+import Login from "./pages/login"
+import Signup from "./pages/signup"
 
 function App() {
+  
   return (
     <div>
-      <h1 className="text-3xl text-white bg-blue-500 ">Tailwind is working</h1>
-      <h1 className="text-3xl text-white bg-blue-500 ">Tailwind is Not  working</h1>
-
+ {/* <Login/> */}
+ <Signup/>
 
     </div>
   )
